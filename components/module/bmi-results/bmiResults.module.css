@@ -1,0 +1,41 @@
+/* bmi result Section */
+
+.bmiResultSection {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  margin-left: clamp(0rem, -9.99984rem + 20.833vw, 8.75rem);
+}
+
+.imageBmi {
+  width: 100%;
+  max-width: clamp(22.5rem, 31.59609rem + -18.95vw, 26.5625rem);
+  height: auto;
+}
+
+.bmiTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(0rem, 5.86266rem + -12.214vw, 3rem);
+  margin-right: clamp(1.5rem, 0.30727rem + 5.089vw, 2.75rem);
+  margin-left: clamp(0rem, 2.93133rem + -6.107vw, 1.5rem);
+  gap: clamp(2rem, 1.91188rem + 0.376vw, 2.25rem);
+}
+
+@media only screen and (min-width: 768px) {
+  .bmiResultSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .imageBmi {
+    transform: translateX(clamp(-4.6875rem, -18.75006rem + 29.297vw, 0rem));
+    max-width: clamp(22.5rem, 7.92864rem + 30.357vw, 35.25rem);
+  }
+
+  .bmiTextContainer {
+    height: 100%;
+    margin-top: clamp(2.25rem, -8.32152rem + 22.024vw, 11.5rem);
+    margin-right: clamp(2.75rem, -4.10728rem + 14.286vw, 8.75rem);
+    margin-left: clamp(0rem, -9.2856rem + 19.345vw, 8.125rem);
+  }
+}

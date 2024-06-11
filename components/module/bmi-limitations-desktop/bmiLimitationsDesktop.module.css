@@ -1,0 +1,59 @@
+.section {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto !important;
+    padding: 96px 140px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+  }
+
+  .second {
+    margin-left: 392px;
+    gap: 32px;
+  }
+
+  .third {
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .text {
+    max-width: 564px;
+  }
+
+  .text h2 {
+    margin-bottom: 36px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    margin-bottom: 32px;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 16px;
+    box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  }
+}
+
+.firstCard {
+  margin-right: 100px;
+  margin-left: 132px;
+}
+
+.iconHeading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

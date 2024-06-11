@@ -1,0 +1,54 @@
+.limitationsSection {
+  padding: clamp(5rem, 4.04586rem + 4.071vw, 6rem)
+    clamp(1.5rem, 0.54586rem + 4.071vw, 2.5rem);
+}
+
+.limitationsSection h2 {
+  margin-bottom: 2rem;
+}
+
+.cardContainer {
+  margin-top: 3.5rem;
+}
+
+.limitationsCard {
+  background-color: #ffffff;
+  width: clamp(20.4375rem, 19.93055rem + 2.163vw, 20.96875rem);
+  margin-bottom: clamp(1rem, 0.52281rem + 2.036vw, 1.5rem);
+  padding: clamp(1.5rem, 0.30727rem + 5.089vw, 2.75rem);
+  text-align: left;
+  border-radius: 16px;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+}
+
+.limitationsCard:last-child {
+  margin-bottom: 0;
+}
+
+.iconHeadingContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .limitationsSection {
+    padding: clamp(6rem, 4.28592rem + 3.571vw, 7.5rem)
+      clamp(2.5rem, -4.64288rem + 14.881vw, 8.75rem);
+    text-align: center;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .limitationsSection {
+    display: none;
+  }
+}
