@@ -1,7 +1,7 @@
 /* bmi result Section */
 
 .bmiResultSection {
-  margin-top: 4.5rem;
+  margin-top: clamp(12.5rem, 43.0343rem + -63.613vw, 28.125rem);
   margin-bottom: 4.5rem;
   margin-left: clamp(0rem, -9.99984rem + 20.833vw, 8.75rem);
 }
@@ -37,5 +37,11 @@
     margin-top: clamp(2.25rem, -8.32152rem + 22.024vw, 11.5rem);
     margin-right: clamp(2.75rem, -4.10728rem + 14.286vw, 8.75rem);
     margin-left: clamp(0rem, -9.2856rem + 19.345vw, 8.125rem);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .bmiResultSection {
+    margin-top: 4.125rem;
   }
 }

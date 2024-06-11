@@ -13,7 +13,7 @@
 
 .limitationsCard {
   background-color: #ffffff;
-  width: clamp(20.4375rem, 19.93055rem + 2.163vw, 20.96875rem);
+  width: 100%;
   margin-bottom: clamp(1rem, 0.52281rem + 2.036vw, 1.5rem);
   padding: clamp(1.5rem, 0.30727rem + 5.089vw, 2.75rem);
   text-align: left;

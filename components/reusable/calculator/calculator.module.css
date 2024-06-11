@@ -1,6 +1,9 @@
 .container {
   background-color: #ffffff;
-  margin-top: clamp(2.5rem, 3.47719rem + -2.036vw, 3rem);
+  position: absolute;
+  width: 90%;
+  max-width: 42.875rem;
+  top: clamp(22.125rem, 36.29305rem + -29.517vw, 29.375rem);
   padding: clamp(1.5rem, 1.02281rem + 2.036vw, 2rem);
   border-radius: 16px;
   box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
@@ -123,8 +126,9 @@
 @media only screen and (min-width: 1024px) {
   .container {
     position: absolute;
-    bottom: 5.375rem;
+    top: 10.375rem;
     left: 77%;
+    max-width: 35.25rem;
     min-width: 35.25rem;
   }
 }
